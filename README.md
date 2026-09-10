@@ -55,4 +55,4 @@ domain. This repo owns `layland.xyz` independently of it.
 ## Contact
 
 No form and no JavaScript — the Get in touch section is a plain
-`mailto:consulting@layland.xyz` link.
+`mailto:jobs@layland.xyz` link.
