@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Layland Consulting — Data Platform Architecture</title>
+<meta name="description" content="Layland Consulting, LLC. Data platform architecture, realtime pipelines, and governance. Twenty years building the data foundations that AI, analytics, and products run on.">
+<meta property="og:title" content="Layland Consulting">
+<meta property="og:description" content="AI doesn’t fix a broken data platform — it exposes it. Data platform architecture, realtime pipelines, and governance.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://layland.xyz/">
+<meta property="og:image" content="https://layland.xyz/assets/layland-consulting-logo.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/layland-consulting-logo.png">
+<link rel="canonical" href="https://layland.xyz/">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Layland Consulting home">
+      <svg class="brand-mark" viewBox="0 0 60 60" aria-hidden="true">
+        <text x="30" y="34" text-anchor="middle" class="brand-lc">LC</text>
+        <line x1="8" y1="42" x2="52" y2="42"/>
+      </svg>
+      <span class="brand-text">Layland <span class="brand-thin">Consulting</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#technical">Technical</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <p class="eyebrow">Layland Consulting, LLC</p>
+      <h1>AI doesn&rsquo;t fix a broken data platform &mdash; it exposes it.</h1>
+      <p class="lede">
+        Over twenty years building the realtime pipelines, infrastructure, schemas, and governance
+        that AI runs on &mdash; I&rsquo;ve scaled it to 1M events a second,
+        terabytes a day, under HIPAA, GDPR, and CPRA.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#contact">Start a conversation</a>
+        <a class="btn btn-ghost" href="#services">What I do</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="wrap">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="prose">
+          <p>
+            I'm Steve Layland, a hands-on data leader with roots in Silicon Valley. I've spent more
+            than two decades across streaming, healthcare, and adtech — building the realtime
+            pipelines and architecture that process <strong>1M requests per second</strong>,
+            writing terabytes daily into a petabyte-scale data lake.
+          </p>
+          <p>
+            Most recently I've been Principal Engineer on data platforms at Tubi, where I architected
+            and scaled the realtime ingestion platform, grew the data org to 25 engineers across four
+            teams, and served as the primary engineer accountable for compliance across GDPR, CCPA,
+            and Executive Order 14117. Before that: engineering leadership at Nuna in a HIPAA-regulated
+            environment, platform work at Metric Insights, and data infrastructure at Linden Lab and
+            Wolfram Research.
+          </p>
+          <p>
+            Through Layland Consulting I take on a small number of engagements at a time. Current work
+            is with <strong>Birches Health</strong>, a telehealth startup operating under HIPAA, where I
+            designed and built their data platform on GCP, including a bespoke Fivetran alternative that
+            ingests data from multiple third-party service providers into the data lake hourly.
+          </p>
+          <p>
+            I <s>write code daily</s> make AI write code daily, mostly in Python, Rust &amp; Scala,
+            and I enjoy building the data foundations high-growth startups run on.
+          </p>
+        </div>
+        <aside class="stats" aria-label="Selected numbers">
+          <div class="stat">
+            <span class="stat-num">1M<span class="stat-unit">RPS</span></span>
+            <span class="stat-label">Realtime ingestion of billions of events a day</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">20+<span class="stat-unit">years</span></span>
+            <span class="stat-label">Building distributed data systems</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">$100<span class="stat-unit">per year</span></span>
+            <span class="stat-label">Bespoke data ingestion vs $15k/yr quote</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title">Services</h2>
+      <p class="section-intro">
+        Engagements usually start with one of these and grow into the others.
+      </p>
+      <div class="cards">
+
+        <article class="card">
+          <h3>Data Platform Architecture</h3>
+          <p>
+            Lakehouse and warehouse design from zero: BigQuery, Databricks, Snowflake, dbt.
+            Medallion layering, schema evolution, data modeling, and the quality standards that keep
+            a platform trustworthy as the team grows.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Realtime &amp; Streaming Pipelines</h3>
+          <p>
+            High-throughput ingestion on Kafka, Kinesis, Flink, and Spark. Event schema design,
+            exactly-once semantics, and the operational practice — monitoring, cost control, incident
+            response — that keeps streams healthy at peak.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Governance &amp; Compliance</h3>
+          <p>
+            HIPAA, GDPR, CCPA/CPRA, COPPA, VPPA, and Executive Order 14117. Privacy-safe identity
+            spines, inline de-identification, surrogate IDs, deletion and retention workflows, and
+            audit-ready lineage.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Agentic BI</h3>
+          <p>
+            Self-service analytics that actually answers questions: semantic layer configuration,
+            MCP servers, and tool design that let agents and analysts query the warehouse without
+            inventing their own definitions of revenue.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Cloud Infrastructure</h3>
+          <p>
+            AWS, GCP, and Azure; Kubernetes, Cloud Run, Terraform, Bazel, and CI/CD. Remote build
+            caching and executors, infrastructure-as-code, and cost structures that hold up as
+            volume grows.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>ML Platform Architecture</h3>
+          <p>
+            Feature stores, model training, versioning, and serving. Realtime features and the
+            pipelines behind them, plus the ML ops scaffolding that gets models from a notebook into
+            production reliably.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>MarTech Architecture</h3>
+          <p>
+            First- and last-touch attribution, MMP integrations (Adjust, Kochava, AppsFlyer),
+            and CRM integrations (Braze, HubSpot, Kustomer) — wired through a privacy layer so
+            coverage goes up without your exposure going up with it.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Experimentation</h3>
+          <p>
+            Experiment and cohort analysis, and the data plumbing behind it — integrating Statsig,
+            PostHog, or LaunchDarkly with your warehouse so results are reproducible rather than
+            trapped in a vendor dashboard.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="technical" class="section">
+    <div class="wrap">
+      <h2 class="section-title">Technical</h2>
+      <dl class="tech">
+        <div class="tech-row">
+          <dt>Languages</dt>
+          <dd>Python, Scala, Rust, Go, TypeScript</dd>
+        </div>
+        <div class="tech-row">
+          <dt>Data &amp; Storage</dt>
+          <dd>BigQuery, Databricks, Snowflake, Delta, Iceberg, relational and key-value databases</dd>
+        </div>
+        <div class="tech-row">
+          <dt>Processing</dt>
+          <dd>Spark, Flink, Kafka, Kinesis, dbt, Airflow</dd>
+        </div>
+        <div class="tech-row">
+          <dt>Cloud &amp; Infra</dt>
+          <dd>AWS, GCP, Azure, Kubernetes, Terraform</dd>
+        </div>
+        <div class="tech-row">
+          <dt>AI Engineering</dt>
+          <dd>Spec-driven development, agent workflows, context engineering, MCP</dd>
+        </div>
+        <div class="tech-row">
+          <dt>Practice</dt>
+          <dd>Data modeling, distributed systems, realtime streaming, data governance</dd>
+        </div>
+        <div class="tech-row">
+          <dt>Regulated Domains</dt>
+          <dd>HIPAA, GDPR, CCPA/CPRA, VPPA, EO&nbsp;14117</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap contact-inner">
+      <h2 class="section-title contact-title">Get in touch</h2>
+      <p class="contact-head">Let&rsquo;s fix your data problems.</p>
+      <p class="contact-lede">
+        Reach out with a brief overview of what you&rsquo;re working on.
+      </p>
+      <a class="contact-email" href="mailto:consulting@layland.xyz">consulting@layland.xyz</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-brand">Layland Consulting, LLC</p>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="mailto:consulting@layland.xyz">consulting@layland.xyz</a>
+      <a href="https://linkedin.com/in/stephenlayland" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

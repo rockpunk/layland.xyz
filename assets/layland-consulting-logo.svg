@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <rect width="400" height="200" fill="white"/>
+  <text x="200" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="bold" fill="#1a3a5c" text-anchor="middle" letter-spacing="20">LC</text>
+  <line x1="100" y1="140" x2="300" y2="140" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="200" y="165" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#1a3a5c" text-anchor="middle" letter-spacing="6">LAYLAND CONSULTING</text>
+</svg>
